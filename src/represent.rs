@@ -24,7 +24,7 @@ pub(crate) fn represent_by_gregorian(
             let (month, day) = if is_kansuuji {
                 (to_kansuuji(date.month()), to_kansuuji(date.day()))
             } else {
-                (date.month().to_string(), date.month().to_string())
+                (date.month().to_string(), date.day().to_string())
             };
 
             let date_str = format!("{}{}年{}月{}日", span.gengou(), year, month, day,);
