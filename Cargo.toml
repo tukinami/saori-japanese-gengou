@@ -1,6 +1,6 @@
 [package]
 name = "saori-japanese-gengou"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 authors = [ "tukinami seika" ]
 license = "MIT"
@@ -13,10 +13,10 @@ description = "SAORI to calculate Japanese gengou."
 winapi = {version = "0.3.9", features = ["winbase", "libloaderapi", "stringapiset"]}
 
 [dependencies]
-chrono = "0.4.37"
+chrono = "0.4.42"
 
 [dev-dependencies]
-encoding_rs = "0.8.33"
+encoding_rs = "0.8.35"
 
 [lib]
 name = "japanesegengou"
